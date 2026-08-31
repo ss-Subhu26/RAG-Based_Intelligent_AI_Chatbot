@@ -1,0 +1,23 @@
+ 
+.env
+.env.*
+__init__.py
+chroma_db/
+db/
+
+#python cache files
+__pycache__/
+pycache/
+*.py[cod]
+
+#chromadb / vector database files
+chroma/
+chroma.db/
+*.chromadb
+
+#local environment files
+*.db
+*.sqlite
+*.sqlite3
+
+
